@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Sahu - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 1.8rem;
+      }
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .leftSection .btn a {
+        text-decoration: none;
+        color: white;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 78vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer h1 {
+        font-size: 21px;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Yash' Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projecs</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <spam class="purple">Yash Sahu</spam>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">
+              <a href="Yash Sahu Resume.pdf" download="Yash Sahu Resume"
+                >Download Resume</a
+              >
+            </button>
+            <button class="btn">
+              <a href="https://github.com/yashsahu2001">Visit GitHub</a>
+            </button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Internships</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="network.png" alt="" />
+            <div class="vertical-title">
+              Core Networking(July 2022 - August 2022)
+            </div>
+            <div class="vertical-desc">
+              In it I have worked with BSNL in the domainof 'Core Networking' to
+              work in the betweens connections.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ai.png" alt="" />
+            <div class="vertical-title">
+              Artificial Intelligence(10 July 2023 - 10 August 2023)
+            </div>
+            <div class="vertical-desc">
+              I have worked with Bharatinten in various project i.e 'Auto
+              Correct Tool' and 'Resume Parser'.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              Web Development(1 August 2023 - 31 August 2023)
+            </div>
+            <div class="vertical-desc">
+              I have worked with Lets Grow More on web develipment projects that
+              are 'TODO List', 'Regestration Page' and 'Simple Calculator'.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              "Full Stack Developerg(10 October 2023 - 10 November 2023)
+            </div>
+            <div class="vertical-desc">
+              In it I have worked with BSNL in the domainof 'Core Networking' to
+              work in the betweens connections.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ml.png" alt="" />
+            <div class="vertical-title">
+              "Machine Learning(10 September 2023 - 10 October 2023)
+            </div>
+            <div class="vertical-desc">
+              I have worked with bharatintern in ML projects that are 'House
+              Price Predection', 'Wine Quality Predection' and 'Iris Flowers
+              Classification'.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="java.png" alt="" />
+            <div class="vertical-title">
+              Java Developer(1 October 2023 - 1 November 2023)
+            </div>
+            <div class="vertical-desc">
+              I have worked with Lets Grow More in various java projects that
+              are 'TIC-TAC-TOE' and 'Currency Converter'.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h1>Yash Sahu's Developer Portfolio</h1>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Contact Me</li>
+          </ul>
+          <p>yashsahu2004@gmail.com</p>
+          <p>www.linkedin.com/in/yash-sahu123</p>
+          <p>itsyashsahu04</p>
+          <p>@yashsahu2004</p>
+        </div>
+        <div class="footer-third">
+          This website font is free to use any one can use the fonts of this
+          website.
+        </div>
+        <div class="footer-fourth"></div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; yashsportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Deep Learning",
+          "Digital Marketing",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
